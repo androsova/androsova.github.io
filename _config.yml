@@ -15,7 +15,7 @@ google_analytics: "UA-114738908-1"
 addthis_id: ra-5a92e035ce92f929
 disqus_account: androsova
 
-# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
+# Social networks usernames: see all icon at fontawesome.io, add in future kaggle page
 social:
   #- title: twitter
   #  url: https://twitter.com/lantoniotrento
@@ -27,8 +27,6 @@ social:
     url: https://www.linkedin.com/in/ganna-androsova/
   - title: github
     url: https://github.com/androsova
-  - title: university
-    url: https://wwwen.uni.lu/lcsb/people/ganna_androsova
 
 # Build settings
 markdown: kramdown
