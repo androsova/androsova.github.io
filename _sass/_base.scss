@@ -228,6 +228,7 @@ header {
 
 section {
   padding: 70px 0;
+  margin-bottom: -100px;
   h2 {
     font-size: 50px;
   }
@@ -257,11 +258,12 @@ section {
       font-size: 50px;
     }
     p {
-      margin-bottom: -50px;
+      margin-bottom: -100px;
       font-size: 50px;
     }
   }
   &.features {
+  	margin-bottom: -40px;
     .section-heading {
       margin-bottom: 100px;
       h2 {
@@ -270,6 +272,14 @@ section {
       p {
         margin-bottom: 0;
       }
+    }
+    .col-md-8{
+    	.section-heading {
+      		margin-bottom: 30px;
+      		h2 {
+        	margin-top: 0;
+      	}
+    }
     }
     // section-post-heading fatto da Antonio
     .section-post-heading {
@@ -290,7 +300,7 @@ section {
     }
     .feature-item {
       text-align: center;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       h3 {
         font-size: 30px;
       }

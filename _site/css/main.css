@@ -170,7 +170,8 @@ header {
   header .header-content .header-content-inner h1 {
     font-size: 50px; } }
 section {
-  padding: 70px 0; }
+  padding: 70px 0;
+  margin-bottom: -100px; }
   section h2 {
     font-size: 50px; }
   section.download {
@@ -193,36 +194,42 @@ section {
       margin-top: 0;
       font-size: 50px; }
     section.about p {
-      margin-bottom: -50px;
+      margin-bottom: -100px;
       font-size: 50px; }
-  section.features .section-heading {
-    margin-bottom: 100px; }
-    section.features .section-heading h2 {
-      margin-top: 0; }
-    section.features .section-heading p {
-      margin-bottom: 0; }
-  section.features .section-post-heading {
-    margin-bottom: 100px; }
-    section.features .section-post-heading h2 {
-      margin-top: 0; }
-    section.features .section-post-heading p {
-      margin-bottom: 0; }
-  section.features .device-container, section.features .feature-item {
-    max-width: 300px;
-    margin: 0 auto; }
-  section.features .device-container {
-    margin-bottom: 100px; }
-  section.features .feature-item {
-    text-align: center;
-    margin-bottom: 100px; }
-    section.features .feature-item h3 {
-      font-size: 30px; }
-    section.features .feature-item i {
-      font-size: 80px;
-      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
+  section.features {
+    margin-bottom: -40px; }
+    section.features .section-heading {
+      margin-bottom: 100px; }
+      section.features .section-heading h2 {
+        margin-top: 0; }
+      section.features .section-heading p {
+        margin-bottom: 0; }
+    section.features .col-md-8 .section-heading {
+      margin-bottom: 30px; }
+      section.features .col-md-8 .section-heading h2 {
+        margin-top: 0; }
+    section.features .section-post-heading {
+      margin-bottom: 100px; }
+      section.features .section-post-heading h2 {
+        margin-top: 0; }
+      section.features .section-post-heading p {
+        margin-bottom: 0; }
+    section.features .device-container, section.features .feature-item {
+      max-width: 300px;
+      margin: 0 auto; }
+    section.features .device-container {
+      margin-bottom: 100px; }
+    section.features .feature-item {
+      text-align: center;
+      margin-bottom: 50px; }
+      section.features .feature-item h3 {
+        font-size: 30px; }
+      section.features .feature-item i {
+        font-size: 80px;
+        background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+        background: linear-gradient(to left, #7b4397, #dc2430);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
   section.cta {
     position: relative;
     -webkit-background-size: cover;
