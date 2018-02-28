@@ -170,7 +170,7 @@ header {
   header .header-content .header-content-inner h1 {
     font-size: 50px; } }
 section {
-  padding: 100px 0; }
+  padding: 70px 0; }
   section h2 {
     font-size: 50px; }
   section.download {
@@ -186,6 +186,15 @@ section {
         margin-bottom: 0; }
       section.download .badges .badge-link img {
         height: 60px; }
+  section.about {
+    padding: 10px 0;
+    position: relative; }
+    section.about h2 {
+      margin-top: 0;
+      font-size: 50px; }
+    section.about p {
+      margin-bottom: -50px;
+      font-size: 50px; }
   section.features .section-heading {
     margin-bottom: 100px; }
     section.features .section-heading h2 {

@@ -227,7 +227,7 @@ header {
 }
 
 section {
-  padding: 100px 0;
+  padding: 70px 0;
   h2 {
     font-size: 50px;
   }
@@ -247,6 +247,18 @@ section {
       img {
         height: 60px;
       }
+    }
+  }
+  &.about {
+    padding: 10px 0;
+    position: relative;
+    h2 {
+      margin-top: 0;
+      font-size: 50px;
+    }
+    p {
+      margin-bottom: -50px;
+      font-size: 50px;
     }
   }
   &.features {
