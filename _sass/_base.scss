@@ -413,6 +413,21 @@ section {
       }
     }
   }
+  &.download{
+  	table {
+    	border-collapse: collapse;
+    	width: 100%;
+    	font-style: bold;
+	}
+	td, th {
+   		border: 1px solid #dddddd;
+    	text-align: center;
+    	padding: 8px;
+	}
+	tr:nth-child(even) {
+    	background-color: #000000;
+	}
+}
 }
 
 @media (min-width: 768px) {
