@@ -163,6 +163,7 @@ header {
   background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
+  
   .header-content {
     text-align: center;
     padding: 150px 0 50px;
@@ -191,6 +192,9 @@ header {
     .screen img {
       border-radius: 3px;
     }
+  }
+  .left-screen{
+  	margin-right: -62px;
   }
 }
 
