@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Post Header -->
-<header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header id="header" class="intro-header bg-primary text-center" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}'); background-position: center top;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -25,19 +25,7 @@ layout: default
     <div id="post" class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-		{% if site.data-ad-client %}  
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- jekynewage google ads -->
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-9204963049240271"
-                    data-ad-slot="2973388149"
-                    data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-		{% endif %}
-
+		
 				{{ content }}
 		    
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

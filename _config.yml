@@ -1,6 +1,6 @@
 # Site settings
 title: Coding Girl
-email:
+email: ganna.androsova@gmail.com
 description: Ganna Androsova's journey into Data Science
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
@@ -13,7 +13,7 @@ google_ad_client:
 
 google_analytics: "UA-114738908-1"
 addthis_id: ra-5a92e035ce92f929
-disqus_account: androsova
+disqus_account: coding-girl
 
 # Social networks usernames: see all icon at fontawesome.io, add in future kaggle page
 social:
